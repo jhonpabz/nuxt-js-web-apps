@@ -30,3 +30,20 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.options-container {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #363636;
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.option-container {
+  background-color: #98d7b9;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 95%;
+}
+</style>
