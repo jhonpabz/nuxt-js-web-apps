@@ -37,7 +37,9 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <a class="btn">Button</a>
+      <a class="btn">
+        <IconsAccount />
+      </a>
     </div>
   </div>
 </template>

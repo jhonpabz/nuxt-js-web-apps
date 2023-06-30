@@ -4,8 +4,11 @@ import { resolve } from "path";
 export default defineNuxtConfig({
   devtools: { enabled: true },
   alias: {
-    "@": resolve(__dirname, "/"),
+    /* "@": resolve(__dirname, "/"),
     "@store": resolve(__dirname, "store"),
+    "@assets": resolve(__dirname, "assets"), */
+    assets: "<rootDir>/assets",
+    store: "<rootDir>/store",
   },
   css: ["~/assets/main.css"],
   postcss: {

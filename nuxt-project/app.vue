@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+
+  <NuxtLayout><NuxtPage /> </NuxtLayout>
 </template>
+<script setup></script>
