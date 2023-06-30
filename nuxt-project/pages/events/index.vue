@@ -1,5 +1,5 @@
 <template>
-  <div>Events Page</div>
+  <div class="bg-slate-900 h-screen text-white p-6">Events Page</div>
 </template>
 
 <script>

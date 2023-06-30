@@ -24,14 +24,16 @@
         >
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/events">Events</NuxtLink></li>
+          <li><NuxtLink to="/custom">Custom</NuxtLink></li>
         </ul>
       </div>
-      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+      <a class="btn btn-ghost normal-case text-xl">Test</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/events">Events</NuxtLink></li>
+        <li><NuxtLink to="/custom">Custom</NuxtLink></li>
       </ul>
     </div>
     <div class="navbar-end">
