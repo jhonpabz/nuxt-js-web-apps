@@ -24,7 +24,6 @@
         >
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/products">Products</NuxtLink></li>
-          <li><NuxtLink to="/about">About</NuxtLink></li>
         </ul>
       </div>
       <a class="btn btn-ghost normal-case text-xl">Test</a>
@@ -33,7 +32,6 @@
       <ul class="menu menu-horizontal px-1">
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/products">Products</NuxtLink></li>
-        <li><NuxtLink to="/about">About</NuxtLink></li>
       </ul>
     </div>
     <div class="navbar-end">
