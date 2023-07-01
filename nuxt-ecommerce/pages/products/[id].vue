@@ -1,10 +1,12 @@
 <script setup>
-const route = useRoute();
-const paramsId = route.params.id;
-const nuxt = useNuxtApp();
-console.log(nuxt);
+const { id } = useRoute().params;
+const { data: product, pending } = await useProduct(id);
+console.log(pending.value, "pending");
 </script>
 
 <template>
-  <div>Product id: {{ paramsId }}</div>
+  <div>Product id for: {{ id }}</div>
+  <div>Title: {{ product.title }}</div>
+  <div>Price: {{ product.price }}</div>
+  <div>Price: {{ pending }}</div>
 </template>
