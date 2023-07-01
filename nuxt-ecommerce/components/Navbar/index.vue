@@ -23,7 +23,7 @@
           class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
           <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><NuxtLink to="/products">Products</NuxtLink></li>
+          <!--          <li><NuxtLink to="/products">Products</NuxtLink></li> -->
         </ul>
       </div>
       <a class="btn btn-ghost normal-case text-xl">Test</a>
@@ -31,12 +31,12 @@
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/products">Products</NuxtLink></li>
+        <!--      <li><NuxtLink to="/products">Products</NuxtLink></li> -->
       </ul>
     </div>
     <div class="navbar-end">
       <a class="btn">
-        <IconsAccount />
+        <IconsCart />
       </a>
     </div>
   </div>
