@@ -7,8 +7,10 @@ const num = ref(null);
 
 <template>
   <!-- <ContentDoc /> -->
+
   <div class="bg-[#0F172A] h-screen text-white p-6">
-    <div class="pb-4 text-3xl">
+    <span class="">State Management (Reactive)</span>
+    <div class="py-4 text-3xl">
       {{ useCounter.count }}
     </div>
     <button @click="useCounter.increment()" class="btn btn-info mr-2">

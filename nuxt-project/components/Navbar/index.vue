@@ -23,6 +23,12 @@
           class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
           <li><NuxtLink to="/">Home</NuxtLink></li>
+          <!--          <li>
+            <NuxtLink to="/context"
+              >React Context and Provider Pattern</NuxtLink
+            >
+          </li> -->
+          <li><NuxtLink to="/usestate">useState</NuxtLink></li>
           <li><NuxtLink to="/events">Events</NuxtLink></li>
           <li><NuxtLink to="/custom">Custom</NuxtLink></li>
         </ul>
@@ -32,6 +38,10 @@
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li><NuxtLink to="/">Home</NuxtLink></li>
+        <!--      <li>
+          <NuxtLink to="/context">React Context and Provider Pattern</NuxtLink>
+        </li> -->
+        <li><NuxtLink to="/usestate">useState</NuxtLink></li>
         <li><NuxtLink to="/events">Events</NuxtLink></li>
         <li><NuxtLink to="/custom">Custom</NuxtLink></li>
       </ul>
