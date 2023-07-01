@@ -26,7 +26,7 @@
           <!--          <li><NuxtLink to="/products">Products</NuxtLink></li> -->
         </ul>
       </div>
-      <a class="btn btn-ghost normal-case text-xl">Test</a>
+      <a class="btn btn-ghost normal-case text-xl">JHONSHOPPE</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">

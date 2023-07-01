@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <img :src="product.image" />
+    <img :src="product.image" alt="product img" class="h-auto w-auto" />
     <p class="font-bold text-gray-500 m-4 truncate">{{ product.title }}</p>
     <p class="font-bold text-gray-500 m-4 truncate">${{ product.price }}</p>
     <p class="text-gray-500 m-4 truncate">${{ product.description }}</p>

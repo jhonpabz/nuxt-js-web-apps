@@ -8,9 +8,13 @@ useHead({
 const { data: products, status } = await useProducts();
 
 console.log("status: ", status.value);
+const handleClick = () => {
+  console.log("ENV: ", process.env.API_BASE_URL);
+};
 </script>
 
 <template>
+  <button @click="handleClick" class="btn btn-outline">TEST ENV</button>
   <div>
     <div class="grid grid-cols-4 gap-5">
       <div v-for="product in products" :key="product.id">
