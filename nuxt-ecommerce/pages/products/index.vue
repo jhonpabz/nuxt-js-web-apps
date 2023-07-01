@@ -13,7 +13,8 @@ console.log("status: ", status.value);
   <div>
     <div class="grid grid-cols-4 gap-5">
       <div v-for="product in products" :key="product.id">
-        <NuxtLink :to="`/products/${product.id}`">{{ product.title }}</NuxtLink>
+        <ProductCard :product="product" />
+        <!-- <NuxtLink :to="`/products/${product.id}`">{{ product.title }}</NuxtLink> -->
       </div>
     </div>
   </div>
