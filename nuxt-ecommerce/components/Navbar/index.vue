@@ -22,17 +22,17 @@
           tabindex="0"
           class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li><NuxtLink to="/">Home</NuxtLink></li>
-          <!--          <li><NuxtLink to="/products">Products</NuxtLink></li> -->
+          <li>
+            <label for="my-drawer-2" class="drawer-button lg:hidden"
+              >Filter</label
+            >
+          </li>
         </ul>
       </div>
       <a class="btn btn-ghost normal-case text-xl">JHONSHOPPE</a>
     </div>
     <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
-        <li><NuxtLink to="/">Home</NuxtLink></li>
-        <!--      <li><NuxtLink to="/products">Products</NuxtLink></li> -->
-      </ul>
+      <ul class="menu menu-horizontal px-1"></ul>
     </div>
     <div class="navbar-end">
       <a class="btn">
