@@ -1,6 +1,6 @@
 <script setup>
 // const { data: products } = await useFetch("https://fakestoreapi.com/products");
-const { data: products, status } = await useProducts();
+const { data: products, status } = await useGetProducts();
 </script>
 
 <template>
